@@ -37,7 +37,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #403f3c;
+    background-color: #B5B7B8;
     color: white;
     text-shadow: black 0px 0px 10px;
     
@@ -101,10 +101,30 @@ li a:hover {
     }
     
 .fade-in.three {
-    -webkit-animation-delay: 2.5s;
-    -moz-animation-delay: 2.5s;
-    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.3s;
+    -moz-animation-delay: 2.3s;
+    animation-delay: 2.3s;
     }
+
+.socialMediaLinks{
+    -webkit-animation-delay: 2.3s;
+    -moz-animation-delay: 2.3s;
+    animation-delay: 2.3s;
+}
+
+.socialMediaLinks span{
+    color: white;
+}
+
+/* social media link hover color and hover effects */
+a:visited { text-decoration: none; color:white;}
+a:hover { text-decoration: none; color:#B5B7B8;}
+a:focus { text-decoration: none; color:white;}
+a:hover, a:active { text-decoration: none; color:#B5B7B8}
+a, u{
+    text-decoration: none;
+}
+
 
 .welcomeContainer h1{
     font-size: 175px;
@@ -138,4 +158,15 @@ li a:hover {
 .projectsContent{
     font-family: 'Raleway', sans-serif;
     color: white;
+}
+
+.aboutMe{
+    height: 50vh;
+    align-items: center;
+}
+
+.aboutMe h1{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+
 }
