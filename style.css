@@ -1,3 +1,4 @@
+/* get rid of padding and margins */
 html, body{
     margin: 0;
     padding: 0;
@@ -43,13 +44,14 @@ li a:hover {
 }
 
 
+/* main body */
 
 .contentWrapper{
     display: flex;
     flex-direction: column;
 }
 
-.aboutMeContainer{
+.welcomeContainer{
     height: 100vh;
     text-align: left;
     color: white;
@@ -66,24 +68,62 @@ li a:hover {
     background-size: cover;
 }
 
-.aboutMeContainer h1{
-    font-size: 150px;
+/* make text transitioning effects */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    }
+    
+.fade-in.two {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay:1.2s;
+    animation-delay: 1.2s;
+    }
+    
+.fade-in.three {
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    }
+
+.welcomeContainer h1{
+    font-size: 175px;
     padding-top: 25px;
     padding-left: 50px;
     margin: 0;
 }
 
-.aboutMeContainer h2{
-    font-size: 75px;
+.welcomeContainer h2{
+    font-size: 100px;
     padding-left: 100px;
     margin: 0;
 }
 
-.aboutMeContainer h3{
+.welcomeContainer h3{
     font-family: 'Open Sans', sans-serif;
     text-shadow: black 0px 0px 10px;
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     padding-left: 100px;
     margin: 0;
 
@@ -92,7 +132,7 @@ li a:hover {
 .projectsContent{
     text-align: center;
     height: 100vh;
-    background-color: #403f3c; 
+    background-color: rgb(0, 0, 0, 0.65); 
 }
 
 .projectsContent{
