@@ -149,16 +149,81 @@ a, u{
 
 }
 
-.projectsContent{
+.project{
     text-align: center;
     height: 100vh;
-    background-color: rgb(0, 0, 0, 0.65); 
+    background-color: rgb(0, 0, 0, 0.65);
 }
 
-.projectsContent{
+.project h1{
+    font-family: 'Raleway', sans-serif;
+    text-shadow: black 0px 0px 10px;
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+    margin: 0;
+}
+
+.project{
     font-family: 'Raleway', sans-serif;
     color: white;
 }
+
+#projectFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    padding-top: 5%px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: black 0px 0px 10px;
+}
+
+#projectPhotoPreview{
+    background-image: url("yardsPreview.png");
+    background-size: cover;
+    height: 48vh;
+    width: 48vw;
+    border-radius: 8px;
+}
+
+#projectPhotoPreview:hover {
+    border-bottom: 10px;
+    animation-duration: 0.75s;
+    border-bottom: 8px solid #D98E32;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#projectInformation {
+    height: auto;
+    width: 48vw;
+    padding-left: 10px;
+    
+}
+
+#projectInformation h2{
+    font-size: 30px;
+}
+
+#projectInformation p{
+    font-size: 20px;
+}
+
+#projectInformation ul{
+    list-style: circle;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#projectInformation li{
+    
+
+}
+    
 
 .aboutMe{
     height: 50vh;
