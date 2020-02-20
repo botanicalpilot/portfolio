@@ -19,8 +19,7 @@ html, body{
 
 .navbarLink{
     float: right;
-    text-shadow: black 0px 0px 10px;
-    
+    text-shadow: black 0px 0px 10px;  
 }
 
 
@@ -217,7 +216,7 @@ a, u{
 }
 
 #projectInformation li{
-    list-style-position: outside;
+    list-style-position: inside;
 }
 
     
@@ -343,8 +342,7 @@ a, u{
         align-items: center;
         align-content: center;
         width: 80vw;
-        padding: 0;
-        
+        padding: 10px;
         margin: 0;
         
     }
