@@ -252,10 +252,16 @@ a, u{
 
 .aboutMeContent{
     text-align: center;
-    padding-right: 20px;
+    padding: 10px;
     height: auto;
     width: 30vw;
     background-color: rgb(217, 142, 50, .65);
+}
+
+.aboutMe p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 
@@ -279,15 +285,15 @@ a, u{
     }
 
     .welcomeContainer h1{ 
-        font-size: 75px;
+        font-size: 90px;
         padding-top: 60px;
         padding-left: 10px;
         margin: 0;
     }
     
     .welcomeContainer h2{
-        font-size: 50px;
-        padding-left: 45px;
+        font-size: 55px;
+        padding-left: 35px;
         margin: 0;
     }
     
@@ -295,14 +301,13 @@ a, u{
         font-family: 'Open Sans', sans-serif;
         text-shadow: black 0px 0px 10px;
         color: white;
-        font-size: 30px;
-        padding-left: 45px;
+        padding-left: 35px;
         margin: 0;
     }
 
     
     .fade-in.three{
-        padding-left: 45px;
+        padding-left: 35px;
         margin: 0;
         font-size: 30px;
     }
@@ -332,8 +337,8 @@ a, u{
     #projectPhotoPreview{
         background-image: url("yardsPreview.png");
         background-size: cover;
-        height: 30vh;
-        width: 75vw;
+        height: 25vh;
+        width: 80vw;
         border-radius: 8px;
     }
 
@@ -347,11 +352,12 @@ a, u{
 
     #projectInformation{
         width: 90vw;
+        height: auto;
     }
 
     .aboutMe{
         padding-top: 200px;
-        height: 110vh;
+        height: 130vh;
     }
 
     .aboutMeContent {
@@ -360,6 +366,7 @@ a, u{
         align-items: center;
         align-content: center;
         width: 80vw;
+        height: auto;
         padding: 10px;
         margin: 0;
         
