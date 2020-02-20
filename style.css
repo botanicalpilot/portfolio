@@ -211,7 +211,7 @@ a, u{
 }
 
 #projectInformation ul{
-    list-style: circle;
+    list-style-type: none;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
