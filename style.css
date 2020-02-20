@@ -138,10 +138,13 @@ a, u{
     font-family: 'Open Sans', sans-serif;
     text-shadow: black 0px 0px 10px;
     color: white;
-    font-size: 50px;
+    font-size: 75px;
+}
+
+.fade-in.three{
     padding-left: 100px;
     margin: 0;
-
+    font-size: 50px;
 }
 
 .project{
@@ -278,8 +281,16 @@ a, u{
         font-size: 30px;
         padding-left: 25px;
         margin: 0;
-    
     }
+
+    
+    .fade-in.three{
+        padding-left: 45px;
+        margin: 0;
+        font-size: 30px;
+    }
+
+    
 
     .project{
         height: auto;
@@ -321,8 +332,21 @@ a, u{
         width: 90vw;
     }
 
+    .aboutMe{
+        padding-top: 200px;
+        height: 110vh;
+    }
+
     .aboutMeContent {
-        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 80vw;
+        padding: 0;
+        
+        margin: 0;
+        
     }
 
 }
