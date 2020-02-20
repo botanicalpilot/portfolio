@@ -111,6 +111,7 @@ html, body{
 }
 
 /* social media link hover color and hover effects */
+a:link {text-decoration: none; color: white;}
 a:visited { text-decoration: none; color:white;}
 a:hover { text-decoration: none; color:#D98E32;}
 a:focus { text-decoration: none; color:white;}
