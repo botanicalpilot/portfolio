@@ -7,7 +7,7 @@ html, body{
     }
 
 /* navbar styling in base.html */
-ul {
+ .navbarUl {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,17 +17,15 @@ ul {
     left: 0;
 }
 
-li{
+.navbarLink{
     float: right;
+    text-shadow: black 0px 0px 10px;
     
 }
 
-.navbarLink li {
-    text-shadow: white 0px 0px 10px;
-}
 
 
-li a {
+.navbarLink a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -36,8 +34,8 @@ li a {
     
 }
 
-li a:hover {
-    background-color: #B5B7B8;
+.navbarLink a:hover {
+    background-color: #D98E32;
     color: white;
     text-shadow: black 0px 0px 10px;
     
@@ -58,13 +56,7 @@ li a:hover {
     text-shadow: black 1px 0px 15px;
     font-family: 'Raleway', sans-serif;
     /* background image & gradient */
-    background-repeat: no-repeat;
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("background2.jpg") no-repeat;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65))), url("background2.jpg") no-repeat;
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("background2.jpg") no-repeat;
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("background2.jpg") no-repeat;
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("background2.jpg") no-repeat;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("background2.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0.65) 100%), url("background2.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -106,6 +98,8 @@ li a:hover {
     animation-delay: 2.3s;
     }
 
+
+
 .socialMediaLinks{
     -webkit-animation-delay: 2.3s;
     -moz-animation-delay: 2.3s;
@@ -118,9 +112,9 @@ li a:hover {
 
 /* social media link hover color and hover effects */
 a:visited { text-decoration: none; color:white;}
-a:hover { text-decoration: none; color:#B5B7B8;}
+a:hover { text-decoration: none; color:#D98E32;}
 a:focus { text-decoration: none; color:white;}
-a:hover, a:active { text-decoration: none; color:#B5B7B8}
+a:hover, a:active { text-decoration: none; color:#D98E32}
 a, u{
     text-decoration: none;
 }
@@ -151,8 +145,10 @@ a, u{
 
 .project{
     text-align: center;
-    height: 100vh;
-    background-color: rgb(0, 0, 0, 0.65);
+    height: 130vh;
+    background-color: rgb(0, 0, 0.65);
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
 .project h1{
@@ -164,20 +160,17 @@ a, u{
     margin: 0;
 }
 
-.project{
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-
 #projectFlex{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: auto; 
-    padding-top: 5%px;
+    padding-top: 5px;
     font-family: 'Open Sans', sans-serif;
     text-shadow: black 0px 0px 10px;
+    
+    
 }
 
 #projectPhotoPreview{
@@ -199,7 +192,7 @@ a, u{
     height: auto;
     width: 48vw;
     padding-left: 10px;
-    
+
 }
 
 #projectInformation h2{
@@ -215,23 +208,87 @@ a, u{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 #projectInformation li{
-    
-
+    list-style-position: outside;
 }
+
     
 
 .aboutMe{
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    height: 105vh;
+    text-align: left;
+    color: white;
+    text-shadow: black 1px 0px 15px;
+    font-family: 'Raleway', sans-serif;
+    /* background image & gradient */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0.65) 100%), url("aboutMeBackground.jpg") no-repeat;
+
+    /* background-image: url("aboutMeBackground.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .aboutMe h1{
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
+}
+
+.aboutMeContent{
+    text-align: center;
+    padding-right: 20px;
+    height: auto;
+    width: 30vw;
+    background-color: rgb(217, 142, 50, .65);
+}
+
+
+/* style for responsiveness and mobile */
+@media(max-width: 767px){
+    .welcomeContainer{
+        height: 100vh;
+        text-align: left;
+    }
+
+    .welcomeContainer h1{
+        font-size: 75px;
+        padding-top: 25px;
+        padding-left: 25px;
+        margin: 0;
+    }
+    
+    .welcomeContainer h2{
+        font-size: 50px;
+        padding-left: 25px;
+        margin: 0;
+    }
+    
+    .welcomeContainer h3{
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: black 0px 0px 10px;
+        color: white;
+        font-size: 30px;
+        padding-left: 25px;
+        margin: 0;
+    
+    }
+
+    #projectFlex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto; 
+        padding-top: 5px;
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: black 0px 0px 10px; 
+    }
+
 
 }
