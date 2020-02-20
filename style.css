@@ -30,7 +30,7 @@ html, body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
+    font-size: 20px;
 }
 
 .navbarLink a:hover {
@@ -39,6 +39,9 @@ html, body{
     text-shadow: black 0px 0px 10px;
     
 }
+
+
+
 
 
 /* main body */
@@ -253,23 +256,35 @@ a, u{
 }
 
 
+
+
+
+
+
+
+
+
 /* style for responsiveness and mobile */
 @media(max-width: 767px){
+    .navbarLink a {
+        font-size: 15px;
+    }
+
     .welcomeContainer{
         height: 100vh;
         text-align: left;
     }
 
-    .welcomeContainer h1{
+    .welcomeContainer h1{ 
         font-size: 75px;
-        padding-top: 25px;
-        padding-left: 25px;
+        padding-top: 60px;
+        padding-left: 10px;
         margin: 0;
     }
     
     .welcomeContainer h2{
         font-size: 50px;
-        padding-left: 25px;
+        padding-left: 45px;
         margin: 0;
     }
     
@@ -278,7 +293,7 @@ a, u{
         text-shadow: black 0px 0px 10px;
         color: white;
         font-size: 30px;
-        padding-left: 25px;
+        padding-left: 45px;
         margin: 0;
     }
 
