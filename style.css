@@ -328,16 +328,6 @@ a, u{
         font-size: 30px;
     }
 
-    .socialMediaLinks{
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        align-content: flex-end; 
-        align-items: center;
-        white-space: nowrap;
-        
-    }
 
     
 
