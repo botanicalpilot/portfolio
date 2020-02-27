@@ -359,7 +359,7 @@ a, u{
 
 
     #projectPhotoPreview{
-        background-image: url("yardsPreview.png");
+        background-image: url("homePreview.gif");
         background-size: cover;
         height: 25vh;
         width: 80vw;
@@ -367,6 +367,7 @@ a, u{
     }
 
     #projectPhotoPreview:hover {
+        background-image: url("preview.gif");
         border-left: 10px;
         border-bottom: none;
         animation-duration: 0.75s;
