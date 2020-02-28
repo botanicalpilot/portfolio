@@ -36,7 +36,7 @@ a + a{
 
 .navbarLink a {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -365,6 +365,8 @@ a, u{
         width: 80vw;
         border-radius: 8px;
     }
+
+
 
     #projectPhotoPreview:hover {
         background-image: url("preview.gif");
