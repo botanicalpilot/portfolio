@@ -36,7 +36,7 @@ a + a{
 
 .navbarLink a {
     display: inline-block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -193,7 +193,7 @@ a, u{
 }
 
 #projectPhotoPreview{
-    background-image: url("yardsPreview.png");
+    background-image: url("homePreview.gif");
     background-size: cover;
     height: 48vh;
     width: 48vw;
@@ -201,6 +201,7 @@ a, u{
 }
 
 #projectPhotoPreview:hover {
+    background-image: url("preview.gif");
     border-bottom: 10px;
     animation-duration: 0.75s;
     border-bottom: 8px solid #D98E32;
