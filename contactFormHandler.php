@@ -1,23 +1,17 @@
 <?php
-    $name = $_POST['name'];
-    $sender_email = $_POST['email'];
-    $message = $_POST['message'];
+    if (isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
 
-    $email_from = 'contact@stephenouldhouse.com';
 
-    $email_subject = "Contact from stephenouldhouse.com";
+        $mailTo = "contact@stephenouldhouse.com";
+        $headers = "From: ".$email;
+        $txt = "You have recieved an email from ".$name.".\n\n".$message;
 
-    $email_body = "Name:  $name.\n". "email: $sender_email.\n". "Message: $message.";
-
-    $to = "smo244@gmail.com";
-
-    $headers = "From: $email_from \r\n";
-
-    $headers = "Reply-To: $visitor_email \r\n";
-
-    mail($to,$email_subject,$email_body,$headers) or die("Error");
-
-    echo "Thank You!";
-    // header("Location: index.html");
+        // create mail function
+        mail($mailTo, $txt, $headers);
+        
+    }
 
 ?>
