@@ -11,6 +11,7 @@
 
         // create mail function
         mail($mailTo, $txt, $headers);
+        header("Location: index.html")
         
     }
 
