@@ -1,6 +1,6 @@
-// accordion modal
+// modal
 let modal = document.querySelector(".modal");
-let openButton = document.getElementById("instagramLink");
+let openButton = document.getElementById("mailLink");
 let closeButton = document.querySelector(".close-button");
 
 function toggleModal() {
