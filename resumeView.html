@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stephen Ouldhouse - Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"> 
+</head>
+<body>
+        <div class="top-bar">
+                <button onclick="window.location.href = 'index.html';" class="btn" id="home">
+                        <i class="fas fa-home"></i> Home
+                </button>
+                <a href="ouldhouseResume.pdf" download="">
+                  <button class="btn" id="download">
+                          <i class="fas fa-file-download"></i> Download
+                  </button>
+                </a>
+                <button class="btn" id="prev-page">
+                  <i class="fas fa-arrow-circle-left"></i> Prev Page
+                </button>
+                <button class="btn" id="next-page">
+                  Next Page <i class="fas fa-arrow-circle-right"></i>
+                </button>
+                <span class="page-info">
+                  <span id="page-num"></span> / <span id="page-count"></span>
+                </span>
+              </div>
+          
+              <canvas id="pdf-render"></canvas>
+    
+<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+<script src="pdfView.js"></script>
+</body>
+</html>

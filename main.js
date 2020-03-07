@@ -16,3 +16,6 @@ function WindowOnClick(event) {
 openButton.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", WindowOnClick);
+
+
+
