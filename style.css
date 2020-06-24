@@ -224,7 +224,7 @@ a, u{
 
 .project{
     text-align: center;
-    height: 130vh;
+    height: 160vh;
     width: auto;
     background-color: rgb(0, 0, 0.65);
     font-family: 'Raleway', sans-serif;
@@ -242,15 +242,15 @@ a, u{
 
 #projectFlex{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     height: auto; 
     padding-top: 5px;
     font-family: 'Open Sans', sans-serif;
     text-shadow: black 0px 0px 10px;
-    
-    
+    margin-top: 100px; 
+    margin-bottom: 50px;
 }
 
 #projectPhotoPreview{
@@ -284,7 +284,7 @@ a, u{
     font-size: 20px;
 }
 
-#projectInformation ul{
+.project ul{
     list-style-type: none;
     display: flex;
     padding: 0;
@@ -299,6 +299,38 @@ a, u{
     list-style-position: inside;
 }
 
+.gibber{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: black 0px 0px 10px;
+    margin-top: 100px; 
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: black 0px 0px 10px;
+}
+
+.gibberPhoto{
+    background-image: url('gibber.jpg');
+    background-size: cover;
+    height: 48vh;
+    width: 48vw;
+    border-radius: 8px;
+}
+
+.gibberPhoto:hover {
+    background-image: url("gibber.gif");
+    border-bottom: 10px;
+    animation-duration: 0.75s;
+    border-bottom: 8px solid #D98E32;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.gibberContent{
+    width: 48vw;
+}
     
 
 .aboutMe{
@@ -431,8 +463,26 @@ a, u{
         font-size: 30px;
     }
 
+    .gibber{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: auto; 
+        padding-top: 5px;
+        fownt-family: 'Open Sans', sans-serif;
+        text-shadow: black 0px 0px 10px; 
+    }
 
+    .gibberContent{
+        width: 90vw;
+    }
     
+    .gibberPhoto{
+        height: 25vh;
+        width: 80vw;
+    }
 
     .project{
         height: auto;
