@@ -240,7 +240,11 @@ a, u{
     margin: 0;
 }
 
-#projectFlex{
+#gibberLink, #yardsLink{
+    font-size: 44px;
+}
+
+#yardsBio{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -269,18 +273,18 @@ a, u{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-#projectInformation {
+#yardsBioContent {
     height: 85vh;
     width: 48vw;
     padding-left: 10px;
 
 }
 
-#projectInformation h2{
+#yardsBioContent h2{
     font-size: 30px;
 }
 
-#projectInformation p{
+#yardsBioContent p{
     font-size: 20px;
 }
 
@@ -295,7 +299,7 @@ a, u{
      
 }
 
-#projectInformation li{
+#yardsBioContent li{
     list-style-position: inside;
 }
 
@@ -460,7 +464,7 @@ a, u{
     .fade-in.three{
         padding-left: 35px;
         margin: 0;
-        font-size: 30px;
+        font-size: 44px;
     }
 
     .gibber{
@@ -492,7 +496,7 @@ a, u{
         padding: 0;
     }
 
-    #projectFlex{
+    #yardsBio{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -524,7 +528,7 @@ a, u{
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 
-    #projectInformation{
+    #yardsBioContent{
         width: 90vw;
         height: auto;
     }
