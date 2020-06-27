@@ -18,7 +18,7 @@ hr{
 }
 
 /* navbar styling in base.html */
- .navbarUl {
+ .navbarUl{
     list-style-type: none;
     margin: 10px;
     padding-right: 75px;
@@ -26,6 +26,10 @@ hr{
     background-color: transparent;
     top: 0;
     left: 0;
+}
+
+.navbarContainer{
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbarLink{
