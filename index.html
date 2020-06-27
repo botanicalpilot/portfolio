@@ -65,7 +65,7 @@
                 </a>
                 <div class="gibberContent">
                     <a href="https://gibber-app.herokuapp.com/">
-                        <h2>Gibber</h2>
+                        <h2 class="projectTitle">Gibber</h2>
                     </a>
                     <p>Gibber takes its name from Gibberellins, a group of plant hormones that regulate plant developmental processes.
                     <p>Each year I miss sowing seeds in time for my garden - either because I forget or because I miss my sowing window. After constantly referencing an old gardening calendar I was inspired to make my own app to solve the issue.<br>
@@ -98,7 +98,7 @@
                         <div id="projectPhotoPreview"></div>
                     </a>
                     <div id="yardsBioContent">
-                        <h2>Yards Biodiversity</h2>
+                        <h2 class="projectTitle">Yards Biodiversity</h2>
                             <p>Yards Biodiversity allows users to sign up and add plants that are in their immediate vicinity.</p> 
                             <p> The user may select plants from an API I created or add a custom plant of their own. Using information from the USDA, Yards Biodiversity can determine the ratio of native, nonnative, or invasive plants to give a user a better understanding of the flora diversity in their immediate area.</p>
 
@@ -132,24 +132,28 @@
         <div id="aboutMe"class="aboutMe">
             <div class="aboutMeContent" id="aboutMeContent">
                 <h1>Backend</h1>
-                <h2>thallusAPI</h2>
-                <p>Rest API built with Node.js, Express, MongoDB, and deployed to Heroku.</p>
-                <p>Utilized by the app Gibber</p>
-                <br>
-                <a id="gibberLink" class="link" href="https://github.com/botanicalpilot/gibber">
-                    <i class="fab fa-github fa-lg"></i>
-                </a>
-                <br>
-                <br>
-                <h2>yardsAPI</h2>
-                    
-                    <p>Rest API built with Django REST framework.</p>
-                    <p>Utilized by the app Yards Biodiversity</p>
+                <div id="thallusContent">
+                    <h2 class="backendTitle">thallusAPI</h2>
+                    <p>Rest API built with Node.js, Express, MongoDB, and deployed to Heroku.</p>
+                    <p>Utilized by the app Gibber</p>
                     <br>
                     <a id="gibberLink" class="link" href="https://github.com/botanicalpilot/gibber">
                         <i class="fab fa-github fa-lg"></i>
                     </a>
-                <br><br>
+                    <br>
+                </div>
+                
+                <div id='#yardsAPIContent'></div>
+                    <br>
+                    <h2 class="backendTitle" id="yardsAPITitle">yardsAPI</h2>
+                        <p>Rest API built with Django REST framework.</p>
+                        <p>Utilized by the app Yards Biodiversity</p>
+                        <br>
+                        <a id="gibberLink" class="link" href="https://github.com/botanicalpilot/gibber">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                    <br><br>
+                </div>
             </div>
         </div>   
 

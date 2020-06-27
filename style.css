@@ -12,6 +12,11 @@ html, body{
         }
     }
 
+hr{
+    color:grey;
+    opacity: 0.5;
+}
+
 /* navbar styling in base.html */
  .navbarUl {
     list-style-type: none;
@@ -408,6 +413,10 @@ a, u{
     color: #fff;
     padding: 1rem;
   }
+  #yardsAPITitle{
+    padding-top: 44px;
+    line-height: 0px;
+}
 
 
 
@@ -475,7 +484,7 @@ a, u{
         align-content: center;
         height: auto; 
         padding-top: 5px;
-        fownt-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         text-shadow: black 0px 0px 10px; 
     }
 
@@ -494,6 +503,10 @@ a, u{
 
     .project h1{
         padding: 0;
+    }
+
+    .projectTitle{
+        font-family: 'Raleway', sans-serif;
     }
 
     #yardsBio{
@@ -546,8 +559,12 @@ a, u{
         width: 80vw;
         height: auto;
         padding: 10px;
-        margin: 0;
-        
+        margin: 0;  
+    }
+
+    #yardsAPITitle{
+        padding-top: 44px;
+        line-height: 0px;
     }
 
 }
