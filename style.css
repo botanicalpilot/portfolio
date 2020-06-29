@@ -77,7 +77,7 @@ a + a{
     text-shadow: black 1px 0px 15px;
     font-family: 'Raleway', sans-serif;
     /* background image & gradient */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0.65) 100%), url("background2.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0.65) 100%), url("./images/background2.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -267,7 +267,7 @@ a, u{
 }
 
 #yardsPhoto{
-    background-image: url("homePreview.gif");
+    background-image: url("./images/homePreview.gif");
     background-size: cover;
     height: 48vh;
     width: 48vw;
@@ -275,7 +275,7 @@ a, u{
 }
 
 #yardsPhoto:hover {
-    background-image: url("preview.gif");
+    background-image: url("./images/preview.gif");
     border-bottom: 10px;
     animation-duration: 0.75s;
     border-bottom: 8px solid #D98E32;
@@ -327,7 +327,7 @@ a, u{
 }
 
 .gibberPhoto{
-    background-image: url('gibber.jpg');
+    background-image: url('./images/gibber.jpg');
     background-size: cover;
     height: 48vh;
     width: 48vw;
@@ -335,7 +335,7 @@ a, u{
 }
 
 .gibberPhoto:hover {
-    background-image: url("gibber.gif");
+    background-image: url("./images/gibber.gif");
     border-bottom: 10px;
     animation-duration: 0.75s;
     border-bottom: 8px solid #D98E32;
@@ -355,7 +355,7 @@ a, u{
     color: white;
     text-shadow: black 1px 0px 15px;
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0.65) 100%), url("aboutMeBackground.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0.65) 100%), url("./images/aboutMeBackground.jpg") no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -525,7 +525,7 @@ a, u{
 
 
     #yardsPhoto{
-        background-image: url("homePreview.gif");
+        background-image: url("./images/homePreview.gif");
         background-size: cover;
         height: 25vh;
         width: 80vw;
@@ -535,7 +535,7 @@ a, u{
 
 
     #yardsPhoto:hover {
-        background-image: url("preview.gif");
+        background-image: url("./images/preview.gif");
         border-left: 10px;
         border-bottom: none;
         animation-duration: 0.75s;
