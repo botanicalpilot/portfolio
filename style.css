@@ -1,5 +1,5 @@
 /* get rid of padding and margins */
-html, body{
+html, body, .pageLoader{
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -266,7 +266,7 @@ a, u{
     margin-bottom: 50px;
 }
 
-#projectPhotoPreview{
+#yardsPhoto{
     background-image: url("homePreview.gif");
     background-size: cover;
     height: 48vh;
@@ -274,7 +274,7 @@ a, u{
     border-radius: 8px;
 }
 
-#projectPhotoPreview:hover {
+#yardsPhoto:hover {
     background-image: url("preview.gif");
     border-bottom: 10px;
     animation-duration: 0.75s;
@@ -355,10 +355,7 @@ a, u{
     color: white;
     text-shadow: black 1px 0px 15px;
     font-family: 'Raleway', sans-serif;
-    /* background image & gradient */
     background: linear-gradient(to top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0.65) 100%), url("aboutMeBackground.jpg") no-repeat;
-
-    /* background-image: url("aboutMeBackground.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -527,7 +524,7 @@ a, u{
     }
 
 
-    #projectPhotoPreview{
+    #yardsPhoto{
         background-image: url("homePreview.gif");
         background-size: cover;
         height: 25vh;
@@ -537,7 +534,7 @@ a, u{
 
 
 
-    #projectPhotoPreview:hover {
+    #yardsPhoto:hover {
         background-image: url("preview.gif");
         border-left: 10px;
         border-bottom: none;
