@@ -344,7 +344,7 @@ a, u{
 }
     
 
-.aboutMe{
+.backend{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -359,12 +359,12 @@ a, u{
     
 }
 
-.aboutMe h1{
+.backend h1{
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
 }
 
-.aboutMeContent{
+.backendContent{
     text-align: center;
     padding: 10px;
     height: auto;
@@ -372,7 +372,7 @@ a, u{
     background-color: rgb(217, 142, 50, .65);
 }
 
-.aboutMe p{
+.backend p{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     
@@ -546,12 +546,12 @@ a, u{
         height: auto;
     }
 
-    .aboutMe{
+    .backend{
         padding-top: 200px;
         height: 130vh;
     }
 
-    .aboutMeContent {
+    .backendContent {
         display: flex;
         flex-direction: column;
         align-items: center;
