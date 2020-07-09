@@ -497,6 +497,10 @@ a, u{
         width: 80vw;
     }
 
+    .project{
+        height: auto;
+    }
+
     .project h1{
         padding: 0;
     }
