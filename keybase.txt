@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ouldhouse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://stephenouldhouse.com
+  * I am ouldhouse (https://keybase.io/ouldhouse) on keybase.
+  * I have a public key ASBGDYsZznv75wsCr_j7BLKwJhOEtyajB3IXKxPVG0dRWAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120460d8b19ce7bfbe70b02aff8fb04b2b0261384b726a30772172b13d51b4751580a",
+      "host": "keybase.io",
+      "kid": "0120460d8b19ce7bfbe70b02aff8fb04b2b0261384b726a30772172b13d51b4751580a",
+      "uid": "56e48a79a91ab0ae2b02757c95821019",
+      "username": "ouldhouse"
+    },
+    "merkle_root": {
+      "ctime": 1596471536,
+      "hash": "1f66b867e2b915d86fa38dabc7fda51457f9fb23a5f9d445d033a507866c7482d0091cfd1e13a74f691c7920749f42c269740a5a4503ad7bae19c4840d8e560e",
+      "hash_meta": "3b3231bc255de44b44f53e4a270ad1f9ed351773e377462c7d1a3e084e1098f1",
+      "seqno": 17166619
+    },
+    "service": {
+      "entropy": "82TOqS6L+MDZiRkAf+iIbeeV",
+      "hostname": "stephenouldhouse.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1596471595,
+  "expire_in": 504576000,
+  "prev": "4d0c2f2a4e6550ca606d46495c633ef2ba134573cedae4d6b1108f0a43790f7d",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRg2LGc57++cLAq/4+wSysCYThLcmowdyFysT1RtHUVgKp3BheWxvYWTESpcCDsQgTQwvKk5lUMpgbUZJXGM+8roTRXPO2uTWsRCPCkN5D33EIPFKOqWLcdnI8pDkQmnZyFPi01sh2GbGjU2XyX3cuxUFAgHCo3NpZ8RA61RGodAqxnIUvXFEyEJy7PdBxY24Jnfxh+lEz2OL7pz7EbJ5YUUmXBYjGoTqsnD5yEbbKDTlNtSSXJ8sh8YDCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII5qmkfhPsY+wi9rku9OS0/YouHcxS5OsibzkIJv5hgOo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ouldhouse
+
+==================================================================
